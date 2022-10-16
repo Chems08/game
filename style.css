@@ -1,0 +1,115 @@
+body{
+    display: block;
+    background: black;
+    justify-content: center;
+    align-items:baseline;
+}
+
+
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+.subscribe{
+    padding-top: 10px;
+    justify-items: center;
+    margin: auto;
+}
+
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+}
+
+.right{
+    right: 0;
+}
+
+body>h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+
+#connexion>label{
+    font-family: 'Roboto', sans-serif;
+}
+
+#connexion>h1{
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#inscription>h1{
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#inscription>label{
+    font-family: 'Roboto', sans-serif;
+}
